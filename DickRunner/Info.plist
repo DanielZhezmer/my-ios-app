@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<<<<<<< HEAD
 <dict/>
+=======
+<dict>
+	<key></key>
+	<string></string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Приложение использует ваше местоположение</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Приложению требуется доступ к локальной сети для связи с сервером</string>
+</dict>
+>>>>>>> 8481dee (main functionality including work with map and arrow)
 </plist>

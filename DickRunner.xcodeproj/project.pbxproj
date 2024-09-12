@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		404245C32C99B22B0021BF24 /* ViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404245C22C99B22B0021BF24 /* ViewControllerWrapper.swift */; };
+		404245C72C99BABD0021BF24 /* DistanceInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404245C62C99BABD0021BF24 /* DistanceInputView.swift */; };
+		404245C92C99BBB40021BF24 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404245C82C99BBB40021BF24 /* MapView.swift */; };
 		40474D472C92CB7300A1ED62 /* DickRunnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40474D462C92CB7300A1ED62 /* DickRunnerApp.swift */; };
 		40474D492C92CB7300A1ED62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40474D482C92CB7300A1ED62 /* ContentView.swift */; };
 		40474D4B2C92CB7300A1ED62 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40474D4A2C92CB7300A1ED62 /* Item.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+
+		404245C22C99B22B0021BF24 /* ViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapper.swift; sourceTree = "<group>"; };
+		404245C62C99BABD0021BF24 /* DistanceInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceInputView.swift; sourceTree = "<group>"; };
+		404245C82C99BBB40021BF24 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		40474D432C92CB7300A1ED62 /* DickRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DickRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40474D462C92CB7300A1ED62 /* DickRunnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DickRunnerApp.swift; sourceTree = "<group>"; };
 		40474D482C92CB7300A1ED62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,7 +125,10 @@
 				40474D4C2C92CB7400A1ED62 /* Assets.xcassets */,
 				40474D4E2C92CB7400A1ED62 /* DickRunner.entitlements */,
 				40474D4F2C92CB7400A1ED62 /* Preview Content */,
-				40474D732C92CDDD00A1ED62 /* ViewController.swift */,
+				40474D732C92CDDD00A1ED62 /* ViewController.swift */,=
+				404245C22C99B22B0021BF24 /* ViewControllerWrapper.swift */,
+				404245C62C99BABD0021BF24 /* DistanceInputView.swift */,
+				404245C82C99BBB40021BF24 /* MapView.swift */,
 			);
 			path = DickRunner;
 			sourceTree = "<group>";
@@ -287,10 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				404245C92C99BBB40021BF24 /* MapView.swift in Sources */,
+				404245C72C99BABD0021BF24 /* DistanceInputView.swift in Sources */,
 				40474D492C92CB7300A1ED62 /* ContentView.swift in Sources */,
 				40474D4B2C92CB7300A1ED62 /* Item.swift in Sources */,
 				40474D742C92CDDD00A1ED62 /* ViewController.swift in Sources */,
 				40474D472C92CB7300A1ED62 /* DickRunnerApp.swift in Sources */,
+				404245C32C99B22B0021BF24 /* ViewControllerWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

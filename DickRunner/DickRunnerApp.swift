@@ -26,7 +26,9 @@ struct DickRunnerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            DistanceInputView()
+
         }
         .modelContainer(sharedModelContainer)
     }
